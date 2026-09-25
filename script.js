@@ -85,7 +85,6 @@ btn.addEventListener("click", () => {
 
     btn.style.display = "none";
     btn_verify.style.display = "none";
-    para.innerHTML = "";
-});
 
-console.log(slected_array);
+    para.textContent = "";
+});
