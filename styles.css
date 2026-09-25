@@ -38,3 +38,43 @@ p {
 button {
   margin: 20px;
 }
+
+#reset {
+  padding: 10px 25px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+
+#reset:hover {
+  background-color: #d32f2f;
+}
+
+#reset:active {
+  transform: scale(0.97);
+}
+#verify{
+padding: 10px 25px;
+  background-color: #138bd6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+#verify:hover {
+  background-color: #1d94e9;
+}
+
+#verify:active {
+  transform: scale(0.97);
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+}
